@@ -55,7 +55,8 @@ UnitTest是xUnit的衍生产品，其工作原理与其他xUnit框架十分类�
 ###PyUnit的特点与竞品比较  
 和部分Python开发人员的观点相似，我认为：Pytest能够培养测试人员以非常紧凑的方式编写出更好的自动化代码，这一编程习惯。尽管UnitTest是Python默认的自动化测试框架，但是其工作原理、及命名规则仍与标准的Python代码略有不同。同时，它也需要太多的样板代码。因此该框架并不太受欢迎。   
    
-##4.Behave  
+##4.Behave
+
 我们都知道：行为驱动开发(behavior-driven development，BDD)，是一种基于敏捷软件开发的***方法。它能够鼓励开发人员、业务参与者和QA人员，三者之间的协作。作为另一种Python测试框架，Behave允许团队避开各种复杂的情况，去执行BDD测试。从本质上说，该框架与SpecFlow和Cucumber非常相似，常被用于执行自动化测试。用户可以通过简单易读的语言来编写测试用例，并能够在其执行期间粘贴到代码之中。而且，那些被设定的行为规范与步骤，也可以被重用到其他的测试方案中。
 
 ###使用先决条件  
@@ -76,6 +77,7 @@ Behave最适合于诸如简单Web测试之类的黑盒测试。但是，对于�
 如果您正在考虑使用Behave，那么您可以借用《Behave with Selenium》(请参见https://www.lambdatest.com/support/docs/display/TD/Behave+with+Selenium+-+Running+Behave+Automation+Scripts+on+LambdaTest+Selenium+Grid)中提到的自动化脚本。
 
 ##5.Lettuce    
+
 Lettuce是另一种基于Cucumber和Python的行为驱动类自动化工具。Lettuce主要专注于那些具有行为驱动开发特征的普通任务。它不但简单易用，而且能够使得整个测试过程更流畅、甚至更有趣。
 使用先决条件
 您需要安装带有IDE的Python 2.7.14、及以上的版本。当然，您也可以使用Pycharm或任何其他IDE工具。同时，您还需要安装Python包管理器。
@@ -89,6 +91,7 @@ Lettuce是另一种基于Cucumber和Python的行为驱动类自动化工具。Le
 在普通开发人员和自动化测试人员看来，Cucumber在执行BDD测试方面更为实用。而在Python开发和QA人员看来，Pytest-bdd才是***的。Pytest的强大之处在于：其框架实现了紧凑且易于理解的代码，并能紧密地结合到行为驱动的测试之中。
 
 ##结语   
+
 综上所述，在上述五种自动化测试的Python框架中，Pytest、Robot Framework和UnitTest可主要用于功能与单元测试，而Lettuce和Behave仅适用于行为驱动测试。通过进一步比较，我们认为：对于功能测试而言，Pytest是***的。如果您是基于Python自动化测试的新手，那么Robot Framework是***的入门工具。虽然其功能有所受限，但是它非常容易上手。对于基于Python的BDD测试而言，Lettuce和Behave同样优秀。不过，如果你已经有了一定的Pytest经验，那么***请使用Pytest-bdd。***，希望本文能够帮助您选出合适的Python测试框架，并顺利开展测试工作。
 
 
