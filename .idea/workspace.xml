@@ -19,6 +19,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,8 +43,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577254020630</updated>
-      <workItem from="1577254041516" duration="553000" />
+      <workItem from="1577254041516" duration="1121000" />
+      <workItem from="1577256986975" duration="1533000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
 </project>
